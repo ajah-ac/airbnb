@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Document</title>
+</head>
+<body>
+<header class="max-w-[1440px] ">
+  
+      <div class="max-w-[1440px] flex items-center justify-between mx-auto px-4"> 
+      <div class=" text-3xl flex bg-ambr-100 items-center">    
+            <img src="../images/logo1.png" alt="logo here" class="w-12 h-12"> <h1 class="text-primary font-semibold">airbnb</h1>
+        </div>
+                <button class="flex items-end -mr-24 md:hidden " id="menu">&#9776</button>
+
+              <nav class=" w-1/2  justify-evenly hidden md:flex">
+                <ul  class="flex justify-evenly text-2xl gap-4 items-center ">
+                <li><a href=""><img src="" alt="">Homes </a></li>
+                <li><a href=""><img src="" alt="">Experiences </li>
+                <li><a href=""><img src="" alt="">Services </li>
+              </nav>
+<div class=" text-2xl hidden md:flex gap-2 items-centers"> <h2>Become a host</h2>
+    <img src="" alt="img ">
+    <p>-</p>  
+</div>
+</div>
+
+
+<div id="phonemenu" class="flex flex-col bg-amber-50 md:hidden">
+  <ul  class="flex  flex-col  text-2xl gap-2 items-center ">
+                <li><a href=""><img src="" alt="">Homes </a></li>
+                <li><a href=""><img src="" alt="">Experiences </li>
+                <li><a href=""><img src="" alt="">Services </li>
+                    </ul>
+     <div class=" text-2xl flex-col flex gap-2 items-center"> <h2>Become a host</h2>
+    <img src="" alt="img ">
+    <p>-</p>  
+</div>
+</div>
+</header>
+    
+<script>
+    const menubtn=document.getElementById('menu')
+        const phone=document.getElementById('phonemenu')
+        menubtn.addEventListener('click',()=>{
+phone.classList.toggle('hidden')
+        })
+
+        
+
+</script>
+</body>
+</html>
