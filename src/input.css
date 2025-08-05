@@ -2,3 +2,11 @@
 @theme{
     --color-primary:#ff385c;
 }
+.scrollbar{
+    scrollbar-width: none;
+    -ms-overflow-style:none;
+    
+}
+.scrollbar::-webkit-scrollbar{
+    display:none;
+}
